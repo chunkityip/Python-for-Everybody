@@ -1,5 +1,5 @@
-text = open("mbox-short.txt")
-
-for i in text:
-    x = i.rstrip()
-    print(i.upper())
+with open("mbox-short.txt") as text:
+    
+    for i in text:
+        x = i.rstrip()
+        print(i.upper())
